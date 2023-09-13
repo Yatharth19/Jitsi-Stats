@@ -1,0 +1,19 @@
+meetingUrls = [
+    // "https://meet.jit.si/apni-temperory-meeting2#config.testing.testMode=true&config.disableNS=true&config.testing.noAutoPlayVideo=false&config.disableAEC=true&config.analytics.disabled=true&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false&config.disable1On1Mode=false&config.alwaysVisibleToolbar=true&config.p2p.useStunTurn=true&config.prejoinConfig.enabled=false&config.p2p.enabled=true&config.requireDisplayName=false&config.gatherStats=true&config.pcStatsInterval=10000&config.debug=true&config.enableTalkWhileMuted=false&config.callStatsID=false&interfaceConfig.DISABLE_FOCUS_INDICATOR=true",
+    // "https://meet.jit.si/jitsi-meeting-lybl-1#config.testing.testMode=true&config.disableNS=true&config.testing.noAutoPlayVideo=false&config.disableAEC=true&config.analytics.disabled=true&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false&config.disable1On1Mode=false&config.alwaysVisibleToolbar=true&config.p2p.useStunTurn=true&config.prejoinConfig.enabled=false&config.p2p.enabled=true&config.requireDisplayName=false&config.gatherStats=true&config.pcStatsInterval=10000&config.debug=true&config.enableTalkWhileMuted=false&config.callStatsID=false&interfaceConfig.DISABLE_FOCUS_INDICATOR=true",
+    // "https://meet-uat.lybl.com/lybl-tech-booking#config.testing.testMode=true&config.disableNS=true&config.testing.noAutoPlayVideo=false&config.disableAEC=true&config.analytics.disabled=true&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false&config.disable1On1Mode=false&config.alwaysVisibleToolbar=true&config.p2p.useStunTurn=true&config.prejoinConfig.enabled=false&config.p2p.enabled=true&config.requireDisplayName=false&config.gatherStats=true&config.pcStatsInterval=10000&config.debug=true&config.enableTalkWhileMuted=false&config.callStatsID=false&interfaceConfig.DISABLE_FOCUS_INDICATOR=true",
+    // "https://meet.jit.si/jitsi-meeting-lybl-2#config.testing.testMode=true&config.disableNS=true&config.testing.noAutoPlayVideo=false&config.disableAEC=true&config.analytics.disabled=true&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false&config.disable1On1Mode=false&config.alwaysVisibleToolbar=true&config.p2p.useStunTurn=true&config.prejoinConfig.enabled=false&config.p2p.enabled=true&config.requireDisplayName=false&config.gatherStats=true&config.pcStatsInterval=10000&config.debug=true&config.enableTalkWhileMuted=false&config.callStatsID=false&interfaceConfig.DISABLE_FOCUS_INDICATOR=true",
+    // "https://meet.jit.si/jitsi-meeting-lybl-3#config.testing.testMode=true&config.disableNS=true&config.testing.noAutoPlayVideo=false&config.disableAEC=true&config.analytics.disabled=true&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false&config.disable1On1Mode=false&config.alwaysVisibleToolbar=true&config.p2p.useStunTurn=true&config.prejoinConfig.enabled=false&config.p2p.enabled=true&config.requireDisplayName=false&config.gatherStats=true&config.pcStatsInterval=10000&config.debug=true&config.enableTalkWhileMuted=false&config.callStatsID=false&interfaceConfig.DISABLE_FOCUS_INDICATOR=true",
+    // "https://meet-uat.lybl.com/jitsi-meeting-lybl-4#config.testing.testMode=true&config.disableNS=true&config.testing.noAutoPlayVideo=false&config.disableAEC=true&config.analytics.disabled=true&interfaceConfig.SHOW_CHROME_EXTENSION_BANNER=false&config.disable1On1Mode=false&config.alwaysVisibleToolbar=true&config.p2p.useStunTurn=true&config.prejoinConfig.enabled=false&config.p2p.enabled=true&config.requireDisplayName=false&config.gatherStats=true&config.pcStatsInterval=10000&config.debug=true&config.enableTalkWhileMuted=false&config.callStatsID=false&interfaceConfig.DISABLE_FOCUS_INDICATOR=true"
+        // "https://meet-uat.lybl.com/jitsi-meeting-lybl-0",
+        // "https://meet-uat.lybl.com/jitsi-meeting-lybl-1",
+        // "https://meet-uat.lybl.com/jitsi-meeting-lybl-2"
+]
+
+scrapeInterval = 10000 //in milliseconds
+numberOfConferences = 3
+module.exports = {
+    meetingUrls,
+    scrapeInterval,
+    numberOfConferences
+}
